@@ -1,0 +1,22 @@
+td.cell {
+    border: 1px solid black;
+    height: 5px;
+    width: 5px;
+  }
+  
+  td.live-cell {
+    background-color: white;
+  }
+  
+  td.dead-cell {
+    background-color: black;
+  }
+
+  table.gol:hover {
+      cursor: pointer;
+  }
+
+input.grid-width, input.grid-height {
+    margin-left: 10px;
+    width: 50px;
+}
